@@ -1,0 +1,143 @@
+/* LET'S RESET THE WEB FIRST */
+@import url('http://reset5.googlecode.com/hg/reset.min.css');
+
+/* GENERAL */
+html {
+	height: 100%;
+}
+
+body {
+	color: #666666;
+	font-family: 'Montserrat', sans-serif;
+	height: 100%;
+	margin: 0;
+}
+img {
+	vertical-align: middle;
+}
+h1 {
+	font-size: 2em;
+	margin: .3em 0;
+}
+a {
+	color: #0cddbd;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	color: #666666;
+}
+table {
+	margin-bottom: 30px;
+	text-align: left;
+	width: 100%;
+}
+table th {
+	background: rgb(208,208,208);
+	color: #FFFFFF;
+	padding: 5px 10px;
+}
+table td {
+	border-bottom: 1px solid #666666;
+	padding: 5px 10px;
+}
+table td a {
+	display: block;
+}
+table td a.remove {
+	font-size: 20px;
+}
+table td a.del {
+	font-size: 14px;
+	line-height: 17px;
+	vertical-align: text-top;
+}
+
+/* FORMS */
+input {
+	padding: 5px;
+}
+input.error {
+	border: 2px solid red;
+}
+div.error {
+	color: red;
+	font-size: 12px;
+	margin-top: 15px;
+}
+input#expense {
+	width: 260px;
+}
+input#email {
+	width: 170px;
+}
+button {
+	background: none;
+	border: none;
+	cursor: pointer;
+	font-size: 25px;
+	padding: 5px;
+	outline: none;
+}
+
+/* LAYOUT */
+#container {
+	height: auto;
+	min-height: 100%;
+	position: relative;
+}
+
+/* HEADER */
+header {
+	margin: 30px auto 15px;
+	max-width: 845px;
+	padding: 0 55px;
+}
+
+/* CONTENT */
+#content {
+	margin: 0 auto;
+	max-width: 900px;
+	overflow: hidden;
+	padding: 0 30px;
+}
+#content section {
+	margin: 30px 25px;
+}
+#content section ul {
+	list-style: none;
+}
+#content section h1 {
+	background: url('info.png') right 10px no-repeat;
+	background-size: 16px 16px;
+	cursor: help;
+	margin-bottom: 20px;
+	position: relative;
+}
+#content section h1:hover span {
+	display: block;
+}
+#content section h1 span {
+	background: #FFF;
+	border: 3px solid #333333;
+	display: none;
+	font-size: 14px;
+	padding: 15px;
+	position: absolute;
+}
+#content section.col {
+	display: inline-block;
+	max-width: 425px;
+	vertical-align: top;
+}
+
+/* FOOTER */
+footer {
+	font-size: .8em;
+	margin-top: 30px;
+	padding: 6px 0;
+	text-align: center;
+}
+footer a:hover {
+	color: grey;
+}
